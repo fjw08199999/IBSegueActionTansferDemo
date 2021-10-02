@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CE413D2E2708152200D83082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D2D2708152200D83082 /* AppDelegate.swift */; };
 		CE413D302708152200D83082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D2F2708152200D83082 /* SceneDelegate.swift */; };
-		CE413D322708152200D83082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D312708152200D83082 /* ViewController.swift */; };
 		CE413D352708152200D83082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE413D332708152200D83082 /* Main.storyboard */; };
 		CE413D372708152300D83082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE413D362708152300D83082 /* Assets.xcassets */; };
 		CE413D3A2708152300D83082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE413D382708152300D83082 /* LaunchScreen.storyboard */; };
+		CE413D422708158600D83082 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D412708158600D83082 /* StartViewController.swift */; };
+		CE413D442708158F00D83082 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D432708158F00D83082 /* EndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE413D2A2708152200D83082 /* IBSegueActionTansferDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBSegueActionTansferDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE413D2D2708152200D83082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE413D2F2708152200D83082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE413D312708152200D83082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE413D342708152200D83082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE413D362708152300D83082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE413D392708152300D83082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE413D3B2708152300D83082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE413D412708158600D83082 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CE413D432708158F00D83082 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				CE413D2D2708152200D83082 /* AppDelegate.swift */,
 				CE413D2F2708152200D83082 /* SceneDelegate.swift */,
-				CE413D312708152200D83082 /* ViewController.swift */,
 				CE413D332708152200D83082 /* Main.storyboard */,
+				CE413D412708158600D83082 /* StartViewController.swift */,
+				CE413D432708158F00D83082 /* EndViewController.swift */,
 				CE413D362708152300D83082 /* Assets.xcassets */,
 				CE413D382708152300D83082 /* LaunchScreen.storyboard */,
 				CE413D3B2708152300D83082 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE413D322708152200D83082 /* ViewController.swift in Sources */,
+				CE413D442708158F00D83082 /* EndViewController.swift in Sources */,
 				CE413D2E2708152200D83082 /* AppDelegate.swift in Sources */,
 				CE413D302708152200D83082 /* SceneDelegate.swift in Sources */,
+				CE413D422708158600D83082 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
